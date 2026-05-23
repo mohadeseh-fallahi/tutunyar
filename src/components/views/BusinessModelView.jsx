@@ -344,7 +344,7 @@ export default function BusinessModelView() {
           </div>
         </div>
 
-        {/* ═══════ Section 2: بررسی ایده از زوایای مختلف ═══════ */}
+        {/* ═══════ Section 2: بررسی بلوغ ایده از زوایای مختلف ═══════ */}
         <div className="border-t border-white/10 mt-16 pt-16">
           <h3 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
             <MagnifyingGlassPlus weight="fill" className="text-gold" size={24} /> بررسی ایده از زوایای مختلف
@@ -402,15 +402,15 @@ export default function BusinessModelView() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
-              <h4 className="text-gold font-bold mb-3">ارزش بکارگیری (Use Value)</h4>
-              <p className="text-sm text-textGray leading-relaxed">خرده‌فروش با استفاده از پلتفرم، در کمتر از ۲ دقیقه سفارش ثبت می‌کند (در مقابل ۳۰ دقیقه تماس تلفنی). دسترسی ۲۴ ساعته به موجودی و قیمت.</p>
+              <h4 className="text-gold font-bold mb-3">ارزش بکارگیری</h4>
+              <p className="text-sm text-textGray leading-relaxed">خرده‌فروش با استفاده از پلتفرم، در کمتر از ۲ دقیقه سفارش ثبت می‌کند (در مقابل ۳۰ دقیقه فرآیند تماس تلفنی). دسترسی ۲۴ ساعته به موجودی و قیمت.</p>
             </div>
             <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
-              <h4 className="text-gold font-bold mb-3">ارزش مبادله‌ای (Exchange Value)</h4>
+              <h4 className="text-gold font-bold mb-3">ارزش مبادله‌ای</h4>
               <p className="text-sm text-textGray leading-relaxed">قیمت‌های عمده‌فروشی شفاف و رقابتی + تخفیفات پلکانی بر اساس حجم خرید + امکان خرید اعتباری (چکی).</p>
             </div>
             <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-coral">
-              <h4 className="text-coral font-bold mb-3">ارزش استراتژیک (Strategic Value)</h4>
+              <h4 className="text-coral font-bold mb-3">ارزش استراتژیک</h4>
               <p className="text-sm text-textGray leading-relaxed">ایجاد شبکه دیجیتال توزیع دخانیات که داده‌های رفتار خرید، پیش‌بینی تقاضا و مدیریت هوشمند موجودی را ممکن می‌سازد.</p>
             </div>
             <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-coral">
@@ -423,7 +423,7 @@ export default function BusinessModelView() {
             </div>
             <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-greenAccent">
               <h4 className="text-greenAccent font-bold mb-3">پایداری ارزش افزوده</h4>
-              <p className="text-sm text-textGray leading-relaxed">با افزایش تعداد مشتریان و داده‌ها، اثر شبکه‌ای ایجاد می‌شود. سابقه خرید و امتیاز خوش‌حسابی مشتریان، هزینه تعویض (Switching Cost) ایجاد می‌کند.</p>
+              <p className="text-sm text-textGray leading-relaxed">با افزایش تعداد مشتریان و داده‌ها، اثر شبکه‌ای ایجاد می‌شود. سابقه خرید و امتیاز خوش‌حسابی مشتریان، هزینه تعویض ایجاد می‌کند.</p>
             </div>
           </div>
 
