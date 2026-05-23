@@ -13,7 +13,7 @@ export default function BusinessModelView() {
         </div>
 
         {/* ═══════ 1. جرقه اولیه ایده ═══════ */}
-        <div className="border-t border-white/10 mt-16 pt-16">
+        <div className="mt-16 pt-16">
           <h3 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
             <Lightbulb weight="fill" className="text-gold" size={24} /> جرقه اولیه ایده
           </h3>
