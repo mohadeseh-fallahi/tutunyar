@@ -361,7 +361,7 @@ export default function BusinessModelView() {
             </div>
             <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-greenAccent">
               <h4 className="text-greenAccent font-bold mb-3">ایده از نوع جدید، ترکیبی یا تطبیقی است؟</h4>
-              <p className="text-sm text-textGray leading-relaxed">تطبیقی (Adaptive). مدل‌های مشابه B2B در صنایع غذایی و FMCG وجود دارند (مثلاً اپلیکیشن‌های پخش مویرگی) اما هیچ‌کدام بر بازار تخصصی دخانیات متمرکز نشده‌اند.</p>
+              <p className="text-sm text-textGray leading-relaxed">تطبیقی. مدل‌های مشابه B2B در صنایع غذایی و FMCG وجود دارند (مثلاً اپلیکیشن‌های پخش مویرگی) اما هیچ‌کدام بر بازار تخصصی دخانیات متمرکز نشده‌اند.</p>
             </div>
             <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
               <h4 className="text-gold font-bold mb-3">ایده تا چه مقیاسی می‌تواند رشد کند؟</h4>
@@ -434,7 +434,7 @@ export default function BusinessModelView() {
             </div>
             <div className="bg-bgPrimary p-6 rounded-2xl border border-gold border-dashed">
               <h4 className="text-gold font-bold mb-3">چرا مشتری باید به این کسب‌وکار توجه کند؟</h4>
-              <p className="text-sm text-white leading-relaxed">قیمت بهتر، دسترسی سریع‌تر، اعتبار خرید، و شفافیت. خرده‌فروش با یک ابزار ساده، کل فرآیند تامین بار خود را بهینه می‌کند.</p>
+              <p className="text-sm text-white leading-relaxed">قیمت بهتر، دسترسی سریع‌تر، اعتبار خرید، شفافیت و داشبورد تحلیلی عمیق برای ارائه تصمیمات بهتر خرید. خرده‌فروش با یک ابزار ساده، کل فرآیند تامین بار خود را بهینه می‌کند.</p>
             </div>
           </div>
         </div>
@@ -493,7 +493,7 @@ export default function BusinessModelView() {
                     <td className="p-3 text-coral text-xs">عدم تمرکز بر دخانیات، تنوع محدود</td>
                   </tr>
                   <tr className="hover:bg-white/5">
-                    <td className="p-3 font-medium">نمایندگی‌های رسمی (JTI/BAT)</td>
+                    <td className="p-3 font-medium">نمایندگی‌های رسمی</td>
                     <td className="p-3 text-textGray">فروش مستقیم</td>
                     <td className="p-3 text-textGray">توزیع‌کنندگان بزرگ</td>
                     <td className="p-3 text-textGray">قیمت مصوب</td>
@@ -515,7 +515,7 @@ export default function BusinessModelView() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-bgPrimary p-6 rounded-2xl border border-gold border-dashed">
-              <h4 className="text-gold font-bold mb-3">مزیت رقابتی بی‌نظیر (Unfair Advantage)</h4>
+              <h4 className="text-gold font-bold mb-3">مزیت رقابتی بی‌نظیر</h4>
               <p className="text-sm text-white leading-relaxed">
                 ترکیب <span className="text-gold font-bold">شناخت عمیق بازار سنتی شیراز</span> (سابقه و اعتبار فعلی) با <span className="text-gold font-bold">تکنولوژی مدرن، سریع و کاربرپسند</span>، همراه با اختصاص اعتبار مالی هوشمند.
               </p>
@@ -545,7 +545,7 @@ export default function BusinessModelView() {
             </div>
             <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-coral">
               <h4 className="text-white font-bold mb-3">بین چه گروه‌هایی واسطه‌گری می‌کند؟</h4>
-              <p className="text-sm text-textGray leading-relaxed">بین تولیدکنندگان و واردکنندگان رسمی (JTI، BAT، الفاخر و...) از یک سو و خرده‌فروشان (سوپرمارکت، دکه، فروشگاه تخصصی) از سوی دیگر.</p>
+              <p className="text-sm text-textGray leading-relaxed">بین تولیدکنندگان و واردکنندگان رسمی از یک سو و خرده‌فروشان (سوپرمارکت، دکه، فروشگاه تخصصی) از سوی دیگر.</p>
             </div>
             <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-greenAccent">
               <h4 className="text-greenAccent font-bold mb-3">چه واسطه‌هایی در زنجیره ارزش وجود دارند؟</h4>
