@@ -1,6 +1,6 @@
-# Tootonyar
+# Tutunyar
 
-Tootonyar is a front-end MVP sample for a B2B wholesale tobacco products platform. This project is designed with a focus on the traditional retail market and simulates processes such as inventory viewing, price checking, order registration, credit management, order tracking, and admin panel management within a responsive user experience.
+Tutunyar is a front-end MVP sample for a B2B wholesale tobacco products platform. This project is designed with a focus on the traditional retail market and simulates processes such as inventory viewing, price checking, order registration, credit management, order tracking, and admin panel management within a responsive user experience.
 
 This version uses demo data and was built to present the idea, validate the product, demonstrate user flows, and prepare the path for developing the real version.
 
