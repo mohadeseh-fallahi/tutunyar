@@ -7,7 +7,7 @@ export default function RoadmapView() {
         <div className="mb-12 border-b border-white/10 pb-6 text-center">
           <h2 className="text-3xl font-extrabold text-gold flex items-center justify-center gap-3">
             <MapTrifold weight="fill" size={32} />
-            نقشه راه توسعه (Roadmap)
+            نقشه راه توسعه 
           </h2>
           <p className="text-textGray mt-4 max-w-2xl mx-auto">چشم‌انداز ۲۴ ماهه پلتفرم توتون‌یار از فاز آزمایشگاهی تا تبدیل شدن به رهبر بازار منطقه‌ای.</p>
         </div>
