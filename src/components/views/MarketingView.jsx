@@ -31,7 +31,7 @@ export default function MarketingView() {
                 <li className="flex items-start gap-3">
                   <Storefront weight="fill" size={28} className="text-coral shrink-0" />
                   <div>
-                    <div className="text-white font-bold">ویزیت حضوری مستقیم (Direct Sales)</div>
+                    <div className="text-white font-bold">ویزیت حضوری مستقیم</div>
                     <div className="text-sm text-textGray">موثرترین روش برای ایجاد اعتماد اولیه و نصب اپلیکیشن/معرفی سایت.</div>
                   </div>
                 </li>
@@ -55,22 +55,22 @@ export default function MarketingView() {
 
           <div className="space-y-8">
             <div className="bg-bgCard p-8 rounded-2xl border-l-4 border-greenAccent">
-              <h3 className="text-xl font-bold text-white mb-4">قیف بازاریابی (Marketing Funnel)</h3>
+              <h3 className="text-xl font-bold text-white mb-4">قیف بازاریابی</h3>
               <div className="flex flex-col gap-2">
                 <div className="bg-bgPrimary p-3 rounded text-center border border-white/5 w-full">
-                  <span className="text-white font-bold">آگاهی (Awareness):</span>{' '}
+                  <span className="text-white font-bold">آگاهی:</span>{' '}
                   <span className="text-textGray text-sm">مراجعه حضوری ویزیتور</span>
                 </div>
                 <div className="bg-bgPrimary p-3 rounded text-center border border-white/5 w-[90%] mx-auto">
-                  <span className="text-white font-bold">توجه (Consideration):</span>{' '}
+                  <span className="text-white font-bold">توجه:</span>{' '}
                   <span className="text-textGray text-sm">مشاهده قیمت‌های رقابتی در دمو</span>
                 </div>
                 <div className="bg-bgPrimary p-3 rounded text-center border border-white/5 w-[80%] mx-auto">
-                  <span className="text-white font-bold">تبدیل (Conversion):</span>{' '}
+                  <span className="text-white font-bold">تبدیل:</span>{' '}
                   <span className="text-textGray text-sm">ثبت اولین سفارش نقدی با تخفیف</span>
                 </div>
                 <div className="bg-bgPrimary p-3 rounded text-center border border-white/5 w-[70%] mx-auto">
-                  <span className="text-white font-bold">وفاداری (Loyalty):</span>{' '}
+                  <span className="text-white font-bold">وفاداری:</span>{' '}
                   <span className="text-textGray text-sm">تخصیص اعتبار چکی و خریدهای مکرر</span>
                 </div>
               </div>
