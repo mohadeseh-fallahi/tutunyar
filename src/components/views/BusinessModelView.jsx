@@ -60,6 +60,7 @@ export default function BusinessModelView() {
                 <li><strong>سفارش ۲۴ ساعته:</strong> حذف وابستگی به ویزیتور</li>
                 <li><strong>خرید چکی/اعتباری:</strong> تسهیل جریان نقدینگی خرده‌فروش</li>
                 <li><strong>صرفه‌جویی زمان:</strong> سفارش‌دهی زیر ۲ دقیقه</li>
+                <li><strong>داشبورد تحلیلی مدرن:</strong> پیشنهادات ویژه براساس خریدهای قبلی و ایجاد خرید هوشمند</li>
               </ul>
             </div>
 
@@ -122,7 +123,7 @@ export default function BusinessModelView() {
         {/* Customer Analysis — Full Width */}
         <div>
           <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
-            <UserFocus weight="bold" className="text-gold" size={22} /> تحلیل مشتری هدف (B2B)
+            <UserFocus weight="bold" className="text-gold" size={22} /> تحلیل مشتری هدف
           </h3>
           <div className="space-y-6">
             {/* Existing 3 cards */}
@@ -132,7 +133,7 @@ export default function BusinessModelView() {
                 <p className="text-sm text-textGray leading-relaxed">مالک سوپرمارکت یا دکه، مرد ۳۰ الی ۵۵ ساله، آشنایی متوسط با گوشی هوشمند، به شدت معتمد به روابط چهره‌به‌چهره، سفارشات هفتگی بین ۵ تا ۵۰ میلیون تومان.</p>
               </div>
               <div className="bg-bgCard p-5 rounded-xl border border-white/5">
-                <h4 className="text-coral font-bold mb-2">دردها و چالش‌ها (Pain Points)</h4>
+                <h4 className="text-coral font-bold mb-2">دردها و چالش‌ها</h4>
                 <ul className="text-sm text-textGray list-disc list-inside space-y-1">
                   <li>عدم اطلاع از موجودی دقیق عمده‌فروش</li>
                   <li>نوسانات ناگهانی قیمت و عدم شفافیت</li>
@@ -157,7 +158,7 @@ export default function BusinessModelView() {
 
             {/* New: تقسیم‌بندی بازار */}
             <div>
-              <h4 className="text-white font-bold mb-4">تقسیم‌بندی بازار (Market Segmentation)</h4>
+              <h4 className="text-white font-bold mb-4">تقسیم‌بندی بازار</h4>
               <div className="bg-bgCard rounded-xl border border-white/5 overflow-x-auto">
                 <table className="w-full text-right text-sm whitespace-nowrap">
                   <thead className="bg-bgPrimary text-textGray border-b border-white/5">
@@ -200,7 +201,7 @@ export default function BusinessModelView() {
 
             {/* New: مسیر تصمیم‌گیری مشتری */}
             <div>
-              <h4 className="text-white font-bold mb-4">مسیر تصمیم‌گیری مشتری (Customer Decision Journey)</h4>
+              <h4 className="text-white font-bold mb-4">مسیر تصمیم‌گیری مشتری</h4>
               <div className="flex flex-col gap-2">
                 <div className="bg-bgPrimary p-4 rounded-lg border border-white/5 w-full flex items-center gap-4">
                   <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center text-bgPrimary font-bold text-sm shrink-0">۱</div>
