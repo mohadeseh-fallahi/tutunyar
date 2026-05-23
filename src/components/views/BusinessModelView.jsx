@@ -434,7 +434,7 @@ export default function BusinessModelView() {
             </div>
             <div className="bg-bgPrimary p-6 rounded-2xl border border-gold border-dashed">
               <h4 className="text-gold font-bold mb-3">چرا مشتری باید به این کسب‌وکار توجه کند؟</h4>
-              <p className="text-sm text-white leading-relaxed">قیمت بهتر، دسترسی سریع‌تر، اعتبار خرید، شفافیت و داشبورد تحلیلی عمیق برای ارائه تصمیمات بهتر خرید. خرده‌فروش با یک ابزار ساده، کل فرآیند تامین بار خود را بهینه می‌کند.</p>
+              <p className="text-sm text-white leading-relaxed">قیمت بهتر، دسترسی سریع‌تر، اعتبار خرید، شفافیت و داشبورد تحلیلی عمیق برای ارائه تصمیمات بهتر خرید (Insight). خرده‌فروش با یک ابزار ساده، کل فرآیند تامین بار خود را بهینه می‌کند.</p>
             </div>
           </div>
         </div>
