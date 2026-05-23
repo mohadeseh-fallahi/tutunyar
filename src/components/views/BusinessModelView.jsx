@@ -334,7 +334,7 @@ export default function BusinessModelView() {
               </div>
               <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
                 <h4 className="text-gold font-bold mb-3">محدوده پیاده‌سازی MVP</h4>
-                <p className="text-sm text-textGray leading-relaxed">شامل: کاتالوگ محصولات با موجودی لحظه‌ای، سفارش آنلاین، مدیریت اعتبار، و پیگیری سفارشات. شامل نمی‌شود: درگاه پرداخت واقعی، API انبارداری، ردیابی GPS تحویل.</p>
+                <p className="text-sm text-textGray leading-relaxed">شامل: کاتالوگ محصولات با موجودی لحظه‌ای، سفارش آنلاین، مدیریت اعتبار، و پیگیری سفارشات. /nشامل نمی‌شود: درگاه پرداخت واقعی، API انبارداری، ردیابی GPS تحویل.</p>
               </div>
               <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
                 <h4 className="text-gold font-bold mb-3">مخاطب اولیه و بلوغ ایده</h4>
