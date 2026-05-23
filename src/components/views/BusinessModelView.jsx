@@ -12,8 +12,147 @@ export default function BusinessModelView() {
           <p className="text-textGray mt-4 max-w-3xl leading-relaxed">این بخش ساختار اقتصادی و استراتژیک توتون‌یار را به عنوان یک پلتفرم B2B در بازار سنتی دخانیات تشریح می‌کند.</p>
         </div>
 
-        {/* BMC */}
-        <div className="mb-16">
+        {/* ═══════ 1. جرقه اولیه ایده ═══════ */}
+        <div className="border-t border-white/10 mt-16 pt-16">
+          <h3 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
+            <Lightbulb weight="fill" className="text-gold" size={24} /> جرقه اولیه ایده
+          </h3>
+
+          <div className="space-y-6">
+            <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
+              <h4 className="text-gold font-bold mb-3">شرح جرقه اولیه</h4>
+              <div className="text-sm text-textGray leading-relaxed space-y-3">
+                <p>بنیان‌گذار توتون‌یار با سال‌ها فعالیت در بازار سنتی عمده‌فروشی دخانیات شیراز، از نزدیک شاهد ناکارآمدی عمیق این صنعت بود. خرده‌فروشان برای ثبت سفارش مجبور به تماس تلفنی با چندین عمده‌فروش، استعلام قیمت‌های متفاوت و مراجعه حضوری به انبارها بودند.</p>
+                <p>مشکل اصلی‌تر، نبود اطلاعات لحظه‌ای از موجودی انبار بود. بارها اتفاق می‌افتاد که مشتری پس از ثبت سفارش تلفنی و مراجعه حضوری، متوجه ناموجود بودن برخی اقلام می‌شد. این بی‌اطلاعی، هم برای خرده‌فروش و هم برای عمده‌فروش هزینه‌بر و زمان‌بر بود.</p>
+                <p>جرقه اصلی زمانی زده شد که دیدیم مشتریان فعلی، با وجود آشنایی محدود با فناوری، از واتساپ برای ارسال لیست سفارش استفاده می‌کنند. این نشان داد که تمایل به دیجیتال‌سازی وجود دارد، فقط ابزار مناسبی در اختیار نیست.</p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
+                <h4 className="text-coral font-bold mb-3">چرایی انتخاب ایده</h4>
+                <p className="text-sm text-textGray leading-relaxed">بنیان‌گذار در حال حاضر با ۶-۷ مشتری فعال در بازار دخانیات شیراز فعالیت می‌کند و تجربه مستقیم از دردها و چالش‌های خرده‌فروشان دارد. شکاف دیجیتال‌سازی در این بازار بسیار واضح است و هیچ رقیب دیجیتال تخصصی در این حوزه وجود ندارد.</p>
+              </div>
+              <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
+                <h4 className="text-greenAccent font-bold mb-3">ارتباط با تجارت الکترونیک</h4>
+                <p className="text-sm text-textGray leading-relaxed"> توتون‌یار یک پلتفرم تجارت الکترونیک B2B برای توزیع عمده محصولات دخانی است. فرآیند سفارش‌گیری، مشاهده کاتالوگ، مدیریت اعتبار و پیگیری سفارش به‌صورت آنلاین انجام می‌شود.</p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
+                <h4 className="text-gold font-bold mb-3">درصد آنلاین بودن فرآیندها</h4>
+                <p className="text-sm text-textGray leading-relaxed">تقریباً ۷۰-۸۰٪ فرآیند سفارش‌گیری و بررسی موجودی به‌صورت آنلاین انجام می‌شود. تحویل فیزیکی و تسویه حساب نهایی (چک/نقدی) همچنان بخش آفلاین باقی می‌ماند.</p>
+              </div>
+              <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
+                <h4 className="text-gold font-bold mb-3">محدوده پیاده‌سازی MVP</h4>
+                <p className="text-sm text-textGray leading-relaxed">شامل: کاتالوگ محصولات با موجودی لحظه‌ای، سفارش آنلاین، مدیریت اعتبار، و پیگیری سفارشات. شامل نمی‌شود: درگاه پرداخت واقعی، API انبارداری، ردیابی GPS تحویل.</p>
+              </div>
+              <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
+                <h4 className="text-gold font-bold mb-3">مخاطب اولیه</h4>
+                <p className="text-sm text-textGray leading-relaxed">مخاطب اولیه: ۶-۷ مشتری فعلی خرده‌فروش در شیراز، با هدف گسترش به ۵۰ مشتری در فاز ۱.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ═══════ 2. بررسی بلوغ ایده از زوایای مختلف ═══════ */}
+        <div className="border-t border-white/10 mt-16 pt-16">
+          <h3 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
+            <MagnifyingGlassPlus weight="fill" className="text-gold" size={24} /> بررسی بلوغ ایده از زوایای مختلف
+          </h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
+              <h4 className="text-gold font-bold mb-3">آیا واقعاً کسی در بازار منتظر چنین راه‌حلی است؟</h4>
+              <p className="text-sm text-textGray leading-relaxed">بله. خرده‌فروشان فعلی بارها از عدم دسترسی به لیست قیمت شفاف و موجودی دقیق شکایت کرده‌اند. هر هفته زمان قابل‌توجهی صرف تماس تلفنی و استعلام قیمت می‌شود.</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-coral">
+              <h4 className="text-white font-bold mb-3">آیا این ایده فقط علاقه شخصی است یا مسئله واقعی گروهی را حل می‌کند؟</h4>
+              <p className="text-sm text-textGray leading-relaxed">مسئله واقعی است. تمام خرده‌فروشان دخانیات شیراز (بیش از ۵۰۰ واحد صنفی) با مشکلات مشابه دسترسی به موجودی، شفافیت قیمت و فرآیند سفارش‌گیری دستی مواجه هستند.</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-greenAccent">
+              <h4 className="text-greenAccent font-bold mb-3">ایده از نوع جدید، ترکیبی یا تطبیقی است؟</h4>
+              <p className="text-sm text-textGray leading-relaxed">تطبیقی. مدل‌های مشابه B2B در صنایع غذایی و FMCG وجود دارند (مثلاً اپلیکیشن‌های پخش مویرگی) اما هیچ‌کدام بر بازار تخصصی دخانیات متمرکز نشده‌اند.</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
+              <h4 className="text-gold font-bold mb-3">ایده تا چه مقیاسی می‌تواند رشد کند؟</h4>
+              <p className="text-sm text-textGray leading-relaxed">فاز ۱: شیراز (۵۰ مشتری)، فاز ۲: استان فارس (۵۰۰+ مشتری)، فاز ۳: جنوب کشور. پتانسیل تبدیل به بزرگ‌ترین پلتفرم B2B دخانیات ایران وجود دارد.</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-coral">
+              <h4 className="text-white font-bold mb-3">مشتریان حاضرند برای آن پول پرداخت کنند؟ چرا؟</h4>
+              <p className="text-sm text-textGray leading-relaxed">مشتریان مستقیماً هزینه‌ای برای پلتفرم نمی‌پردازند. درآمد از حاشیه سود فروش عمده است. مشتریان با استفاده از پلتفرم در زمان و هزینه صرفه‌جویی می‌کنند و به اعتبار خرید دسترسی پیدا می‌کنند.</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-greenAccent">
+              <h4 className="text-greenAccent font-bold mb-3">آیا امکان ارزیابی میدانی ایده وجود دارد؟</h4>
+              <p className="text-sm text-textGray leading-relaxed">بله و در حال انجام است. ۶-۷ مشتری فعلی به‌عنوان گروه آزمایشی (Pilot) از نسخه اولیه استفاده خواهند کرد.</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
+              <h4 className="text-gold font-bold mb-3">اگر ایده شکست بخورد، محتمل‌ترین علت چیست؟</h4>
+              <p className="text-sm text-textGray leading-relaxed">مقاومت فرهنگی خرده‌فروشان سنتی در برابر تغییر رویه خرید از تلفنی/حضوری به دیجیتال. همچنین ریسک نکول اعتبارات.</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-coral">
+              <h4 className="text-white font-bold mb-3">گزینه قبلی مشتریان چه بوده است؟</h4>
+              <p className="text-sm text-textGray leading-relaxed">تماس تلفنی با ۲-۳ عمده‌فروش، مراجعه حضوری به بازار عمده‌فروشی، و خرید از ویزیتورهای سیار.</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-greenAccent">
+              <h4 className="text-greenAccent font-bold mb-3">پول یا توجه مشتری قبلاً به سمت چه کسب‌وکاری رفته است؟</h4>
+              <p className="text-sm text-textGray leading-relaxed">عمده‌فروشان سنتی بازار شیراز (حجره‌داران)، شرکت‌های پخش با ویزیتور حضوری، و گاهاً خرید مستقیم از نمایندگی‌های رسمی.</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
+              <h4 className="text-gold font-bold mb-3">فرضیات اصلی ایده چیست؟</h4>
+              <p className="text-sm text-textGray leading-relaxed">۱) خرده‌فروشان حاضر به استفاده از ابزار دیجیتال هستند ۲) شفافیت قیمت مزیت رقابتی ایجاد می‌کند ۳) سیستم اعتباری ریسک نکول پایینی دارد ۴) حجم بازار برای پوشش هزینه‌ها کافی است.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* ═══════ 3. تحلیل ارزش‌آفرینی ═══════ */}
+        <div className="border-t border-white/10 mt-16 pt-16">
+          <h3 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
+            <Diamond weight="fill" className="text-gold" size={24} /> تحلیل ارزش‌آفرینی
+          </h3>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
+              <h4 className="text-gold font-bold mb-3">ارزش بکارگیری</h4>
+              <p className="text-sm text-textGray leading-relaxed">خرده‌فروش با استفاده از پلتفرم، در کمتر از ۲ دقیقه سفارش ثبت می‌کند (در مقابل ۳۰ دقیقه فرآیند تماس تلفنی). دسترسی ۲۴ ساعته به موجودی و قیمت.</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
+              <h4 className="text-gold font-bold mb-3">ارزش مبادله‌ای</h4>
+              <p className="text-sm text-textGray leading-relaxed">قیمت‌های عمده‌فروشی شفاف و رقابتی + تخفیفات پلکانی بر اساس حجم خرید + امکان خرید اعتباری (چکی).</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-coral">
+              <h4 className="text-coral font-bold mb-3">ارزش استراتژیک</h4>
+              <p className="text-sm text-textGray leading-relaxed">ایجاد شبکه دیجیتال توزیع دخانیات که داده‌های رفتار خرید، پیش‌بینی تقاضا و مدیریت هوشمند موجودی را ممکن می‌سازد.</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-coral">
+              <h4 className="text-coral font-bold mb-3">ارزش افزوده از دید عرضه‌کننده</h4>
+              <p className="text-sm text-textGray leading-relaxed">کاهش هزینه فروش (حذف ویزیتور)، کاهش خطای سفارش‌گیری، بهبود مدیریت موجودی و کاهش ضایعات.</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-greenAccent">
+              <h4 className="text-greenAccent font-bold mb-3">ارزش افزوده از دید مشتری</h4>
+              <p className="text-sm text-textGray leading-relaxed">صرفه‌جویی در زمان، شفافیت قیمت، دسترسی به اعتبار خرید، پیگیری آنلاین سفارش، و اطمینان از موجودی کالا.</p>
+            </div>
+            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-greenAccent">
+              <h4 className="text-greenAccent font-bold mb-3">پایداری ارزش افزوده</h4>
+              <p className="text-sm text-textGray leading-relaxed">با افزایش تعداد مشتریان و داده‌ها، اثر شبکه‌ای ایجاد می‌شود. سابقه خرید و امتیاز خوش‌حسابی مشتریان، هزینه تعویض ایجاد می‌کند.</p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-bgPrimary p-6 rounded-2xl border border-gold border-dashed">
+              <h4 className="text-gold font-bold mb-3">دلایل سختی تقلید</h4>
+              <p className="text-sm text-white leading-relaxed">ترکیب سابقه و اعتبار سنتی در بازار شیراز + زیرساخت فناوری + داده‌های اختصاصی رفتار خرید مشتریان. رقبا یا سنتی هستند (فاقد فناوری) یا دیجیتال هستند (فاقد شناخت بازار محلی).</p>
+            </div>
+            <div className="bg-bgPrimary p-6 rounded-2xl border border-gold border-dashed">
+              <h4 className="text-gold font-bold mb-3">چرا مشتری باید به این کسب‌وکار توجه کند؟</h4>
+              <p className="text-sm text-white leading-relaxed">قیمت بهتر، دسترسی سریع‌تر، اعتبار خرید، شفافیت و داشبورد تحلیلی عمیق برای ارائه تصمیمات بهتر خرید (Insight). خرده‌فروش با یک ابزار ساده، کل فرآیند تامین بار خود را بهینه می‌کند.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* ═══════ 4. بوم مدل کسب‌وکار ═══════ */}
+        <div className="border-t border-white/10 mt-16 pt-16 mb-16">
           <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
             <SquaresFour weight="bold" className="text-gold" size={22} /> بوم مدل کسب‌وکار 
           </h3>
@@ -120,8 +259,8 @@ export default function BusinessModelView() {
           </div>
         </div>
 
-        {/* Customer Analysis — Full Width */}
-        <div>
+        {/* ═══════ 5. تحلیل مشتری هدف ═══════ */}
+        <div className="border-t border-white/10 mt-16 pt-16">
           <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
             <UserFocus weight="bold" className="text-gold" size={22} /> تحلیل مشتری هدف
           </h3>
@@ -301,146 +440,7 @@ export default function BusinessModelView() {
           </div>
         </div>
 
-        {/* ═══════ Section 1: جرقه اولیه ایده ═══════ */}
-        <div className="border-t border-white/10 mt-16 pt-16">
-          <h3 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
-            <Lightbulb weight="fill" className="text-gold" size={24} /> جرقه اولیه ایده
-          </h3>
-
-          <div className="space-y-6">
-            <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
-              <h4 className="text-gold font-bold mb-3">شرح جرقه اولیه</h4>
-              <div className="text-sm text-textGray leading-relaxed space-y-3">
-                <p>بنیان‌گذار توتون‌یار با سال‌ها فعالیت در بازار سنتی عمده‌فروشی دخانیات شیراز، از نزدیک شاهد ناکارآمدی عمیق این صنعت بود. خرده‌فروشان برای ثبت سفارش مجبور به تماس تلفنی با چندین عمده‌فروش، استعلام قیمت‌های متفاوت و مراجعه حضوری به انبارها بودند.</p>
-                <p>مشکل اصلی‌تر، نبود اطلاعات لحظه‌ای از موجودی انبار بود. بارها اتفاق می‌افتاد که مشتری پس از ثبت سفارش تلفنی و مراجعه حضوری، متوجه ناموجود بودن برخی اقلام می‌شد. این بی‌اطلاعی، هم برای خرده‌فروش و هم برای عمده‌فروش هزینه‌بر و زمان‌بر بود.</p>
-                <p>جرقه اصلی زمانی زده شد که دیدیم مشتریان فعلی، با وجود آشنایی محدود با فناوری، از واتساپ برای ارسال لیست سفارش استفاده می‌کنند. این نشان داد که تمایل به دیجیتال‌سازی وجود دارد، فقط ابزار مناسبی در اختیار نیست.</p>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
-                <h4 className="text-coral font-bold mb-3">چرایی انتخاب ایده</h4>
-                <p className="text-sm text-textGray leading-relaxed">بنیان‌گذار در حال حاضر با ۶-۷ مشتری فعال در بازار دخانیات شیراز فعالیت می‌کند و تجربه مستقیم از دردها و چالش‌های خرده‌فروشان دارد. شکاف دیجیتال‌سازی در این بازار بسیار واضح است و هیچ رقیب دیجیتال تخصصی در این حوزه وجود ندارد.</p>
-              </div>
-              <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
-                <h4 className="text-greenAccent font-bold mb-3">ارتباط با تجارت الکترونیک</h4>
-                <p className="text-sm text-textGray leading-relaxed"> توتون‌یار یک پلتفرم تجارت الکترونیک B2B برای توزیع عمده محصولات دخانی است. فرآیند سفارش‌گیری، مشاهده کاتالوگ، مدیریت اعتبار و پیگیری سفارش به‌صورت آنلاین انجام می‌شود.</p>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
-                <h4 className="text-gold font-bold mb-3">درصد آنلاین بودن فرآیندها</h4>
-                <p className="text-sm text-textGray leading-relaxed">تقریباً ۷۰-۸۰٪ فرآیند سفارش‌گیری و بررسی موجودی به‌صورت آنلاین انجام می‌شود. تحویل فیزیکی و تسویه حساب نهایی (چک/نقدی) همچنان بخش آفلاین باقی می‌ماند.</p>
-              </div>
-              <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
-                <h4 className="text-gold font-bold mb-3">محدوده پیاده‌سازی MVP</h4>
-                <p className="text-sm text-textGray leading-relaxed">شامل: کاتالوگ محصولات با موجودی لحظه‌ای، سفارش آنلاین، مدیریت اعتبار، و پیگیری سفارشات. شامل نمی‌شود: درگاه پرداخت واقعی، API انبارداری، ردیابی GPS تحویل.</p>
-              </div>
-              <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
-                <h4 className="text-gold font-bold mb-3">مخاطب اولیه</h4>
-                <p className="text-sm text-textGray leading-relaxed">مخاطب اولیه: ۶-۷ مشتری فعلی خرده‌فروش در شیراز، با هدف گسترش به ۵۰ مشتری در فاز ۱.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* ═══════ Section 2: بررسی بلوغ ایده از زوایای مختلف ═══════ */}
-        <div className="border-t border-white/10 mt-16 pt-16">
-          <h3 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
-            <MagnifyingGlassPlus weight="fill" className="text-gold" size={24} /> بررسی بلوغ ایده از زوایای مختلف
-          </h3>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
-              <h4 className="text-gold font-bold mb-3">آیا واقعاً کسی در بازار منتظر چنین راه‌حلی است؟</h4>
-              <p className="text-sm text-textGray leading-relaxed">بله. خرده‌فروشان فعلی بارها از عدم دسترسی به لیست قیمت شفاف و موجودی دقیق شکایت کرده‌اند. هر هفته زمان قابل‌توجهی صرف تماس تلفنی و استعلام قیمت می‌شود.</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-coral">
-              <h4 className="text-white font-bold mb-3">آیا این ایده فقط علاقه شخصی است یا مسئله واقعی گروهی را حل می‌کند؟</h4>
-              <p className="text-sm text-textGray leading-relaxed">مسئله واقعی است. تمام خرده‌فروشان دخانیات شیراز (بیش از ۵۰۰ واحد صنفی) با مشکلات مشابه دسترسی به موجودی، شفافیت قیمت و فرآیند سفارش‌گیری دستی مواجه هستند.</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-greenAccent">
-              <h4 className="text-greenAccent font-bold mb-3">ایده از نوع جدید، ترکیبی یا تطبیقی است؟</h4>
-              <p className="text-sm text-textGray leading-relaxed">تطبیقی. مدل‌های مشابه B2B در صنایع غذایی و FMCG وجود دارند (مثلاً اپلیکیشن‌های پخش مویرگی) اما هیچ‌کدام بر بازار تخصصی دخانیات متمرکز نشده‌اند.</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
-              <h4 className="text-gold font-bold mb-3">ایده تا چه مقیاسی می‌تواند رشد کند؟</h4>
-              <p className="text-sm text-textGray leading-relaxed">فاز ۱: شیراز (۵۰ مشتری)، فاز ۲: استان فارس (۵۰۰+ مشتری)، فاز ۳: جنوب کشور. پتانسیل تبدیل به بزرگ‌ترین پلتفرم B2B دخانیات ایران وجود دارد.</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-coral">
-              <h4 className="text-white font-bold mb-3">مشتریان حاضرند برای آن پول پرداخت کنند؟ چرا؟</h4>
-              <p className="text-sm text-textGray leading-relaxed">مشتریان مستقیماً هزینه‌ای برای پلتفرم نمی‌پردازند. درآمد از حاشیه سود فروش عمده است. مشتریان با استفاده از پلتفرم در زمان و هزینه صرفه‌جویی می‌کنند و به اعتبار خرید دسترسی پیدا می‌کنند.</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-greenAccent">
-              <h4 className="text-greenAccent font-bold mb-3">آیا امکان ارزیابی میدانی ایده وجود دارد؟</h4>
-              <p className="text-sm text-textGray leading-relaxed">بله و در حال انجام است. ۶-۷ مشتری فعلی به‌عنوان گروه آزمایشی (Pilot) از نسخه اولیه استفاده خواهند کرد.</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
-              <h4 className="text-gold font-bold mb-3">اگر ایده شکست بخورد، محتمل‌ترین علت چیست؟</h4>
-              <p className="text-sm text-textGray leading-relaxed">مقاومت فرهنگی خرده‌فروشان سنتی در برابر تغییر رویه خرید از تلفنی/حضوری به دیجیتال. همچنین ریسک نکول اعتبارات.</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-coral">
-              <h4 className="text-white font-bold mb-3">گزینه قبلی مشتریان چه بوده است؟</h4>
-              <p className="text-sm text-textGray leading-relaxed">تماس تلفنی با ۲-۳ عمده‌فروش، مراجعه حضوری به بازار عمده‌فروشی، و خرید از ویزیتورهای سیار.</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-greenAccent">
-              <h4 className="text-greenAccent font-bold mb-3">پول یا توجه مشتری قبلاً به سمت چه کسب‌وکاری رفته است؟</h4>
-              <p className="text-sm text-textGray leading-relaxed">عمده‌فروشان سنتی بازار شیراز (حجره‌داران)، شرکت‌های پخش با ویزیتور حضوری، و گاهاً خرید مستقیم از نمایندگی‌های رسمی.</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
-              <h4 className="text-gold font-bold mb-3">فرضیات اصلی ایده چیست؟</h4>
-              <p className="text-sm text-textGray leading-relaxed">۱) خرده‌فروشان حاضر به استفاده از ابزار دیجیتال هستند ۲) شفافیت قیمت مزیت رقابتی ایجاد می‌کند ۳) سیستم اعتباری ریسک نکول پایینی دارد ۴) حجم بازار برای پوشش هزینه‌ها کافی است.</p>
-            </div>
-          </div>
-        </div>
-
-        {/* ═══════ Section 3: تحلیل ارزش‌آفرینی ═══════ */}
-        <div className="border-t border-white/10 mt-16 pt-16">
-          <h3 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
-            <Diamond weight="fill" className="text-gold" size={24} /> تحلیل ارزش‌آفرینی
-          </h3>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
-              <h4 className="text-gold font-bold mb-3">ارزش بکارگیری</h4>
-              <p className="text-sm text-textGray leading-relaxed">خرده‌فروش با استفاده از پلتفرم، در کمتر از ۲ دقیقه سفارش ثبت می‌کند (در مقابل ۳۰ دقیقه فرآیند تماس تلفنی). دسترسی ۲۴ ساعته به موجودی و قیمت.</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-gold">
-              <h4 className="text-gold font-bold mb-3">ارزش مبادله‌ای</h4>
-              <p className="text-sm text-textGray leading-relaxed">قیمت‌های عمده‌فروشی شفاف و رقابتی + تخفیفات پلکانی بر اساس حجم خرید + امکان خرید اعتباری (چکی).</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-coral">
-              <h4 className="text-coral font-bold mb-3">ارزش استراتژیک</h4>
-              <p className="text-sm text-textGray leading-relaxed">ایجاد شبکه دیجیتال توزیع دخانیات که داده‌های رفتار خرید، پیش‌بینی تقاضا و مدیریت هوشمند موجودی را ممکن می‌سازد.</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-coral">
-              <h4 className="text-coral font-bold mb-3">ارزش افزوده از دید عرضه‌کننده</h4>
-              <p className="text-sm text-textGray leading-relaxed">کاهش هزینه فروش (حذف ویزیتور)، کاهش خطای سفارش‌گیری، بهبود مدیریت موجودی و کاهش ضایعات.</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-greenAccent">
-              <h4 className="text-greenAccent font-bold mb-3">ارزش افزوده از دید مشتری</h4>
-              <p className="text-sm text-textGray leading-relaxed">صرفه‌جویی در زمان، شفافیت قیمت، دسترسی به اعتبار خرید، پیگیری آنلاین سفارش، و اطمینان از موجودی کالا.</p>
-            </div>
-            <div className="bg-bgCard p-6 rounded-2xl border-t-4 border-greenAccent">
-              <h4 className="text-greenAccent font-bold mb-3">پایداری ارزش افزوده</h4>
-              <p className="text-sm text-textGray leading-relaxed">با افزایش تعداد مشتریان و داده‌ها، اثر شبکه‌ای ایجاد می‌شود. سابقه خرید و امتیاز خوش‌حسابی مشتریان، هزینه تعویض ایجاد می‌کند.</p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-bgPrimary p-6 rounded-2xl border border-gold border-dashed">
-              <h4 className="text-gold font-bold mb-3">دلایل سختی تقلید</h4>
-              <p className="text-sm text-white leading-relaxed">ترکیب سابقه و اعتبار سنتی در بازار شیراز + زیرساخت فناوری + داده‌های اختصاصی رفتار خرید مشتریان. رقبا یا سنتی هستند (فاقد فناوری) یا دیجیتال هستند (فاقد شناخت بازار محلی).</p>
-            </div>
-            <div className="bg-bgPrimary p-6 rounded-2xl border border-gold border-dashed">
-              <h4 className="text-gold font-bold mb-3">چرا مشتری باید به این کسب‌وکار توجه کند؟</h4>
-              <p className="text-sm text-white leading-relaxed">قیمت بهتر، دسترسی سریع‌تر، اعتبار خرید، شفافیت و داشبورد تحلیلی عمیق برای ارائه تصمیمات بهتر خرید (Insight). خرده‌فروش با یک ابزار ساده، کل فرآیند تامین بار خود را بهینه می‌کند.</p>
-            </div>
-          </div>
-        </div>
-
-        {/* ═══════ Section 4: تحلیل بازار و رقابت ═══════ */}
+        {/* ═══════ 6. تحلیل بازار و رقابت ═══════ */}
         <div className="border-t border-white/10 mt-16 pt-16">
           <h3 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
             <ChartBar weight="fill" className="text-gold" size={24} /> تحلیل بازار و رقابت
@@ -533,7 +533,7 @@ export default function BusinessModelView() {
           </div>
         </div>
 
-        {/* ═══════ Section 5: تحلیل واسطه‌گری ═══════ */}
+        {/* ═══════ 7. تحلیل واسطه‌گری ═══════ */}
         <div className="border-t border-white/10 mt-16 pt-16">
           <h3 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
             <ArrowsLeftRight weight="fill" className="text-gold" size={24} /> تحلیل واسطه‌گری
