@@ -114,7 +114,7 @@ export default function BusinessModelView() {
               <ul className="text-white text-sm space-y-2 list-disc list-inside opacity-90">
                 <li><strong>درآمد اصلی:</strong> حاشیه سود حاصل از اختلاف قیمت خرید کلان و فروش عمده (B2B)</li>
                 <li><strong>درآمد فرعی:</strong> حاشیه سود بالاتر در فروش تک و حضوری (B2C)</li>
-                <li><strong>درآمد آتی:</strong> دریافت هزینه اشتراک ویژه برای خدمات ممتاز تحویل</li>
+                <li><strong>درآمد آتی:</strong> دریافت هزینه اشتراک ویژه برای خدمات ممتاز </li>
               </ul>
             </div>
           </div>
