@@ -347,7 +347,7 @@ export default function BusinessModelView() {
         {/* ═══════ Section 2: بررسی بلوغ ایده از زوایای مختلف ═══════ */}
         <div className="border-t border-white/10 mt-16 pt-16">
           <h3 className="text-xl font-bold text-white mb-8 flex items-center gap-2">
-            <MagnifyingGlassPlus weight="fill" className="text-gold" size={24} /> بررسی ایده از زوایای مختلف
+            <MagnifyingGlassPlus weight="fill" className="text-gold" size={24} /> بررسی بلوغ ایده از زوایای مختلف
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
