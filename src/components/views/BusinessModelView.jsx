@@ -323,7 +323,7 @@ export default function BusinessModelView() {
               </div>
               <div className="bg-bgCard p-6 rounded-2xl border border-white/5">
                 <h4 className="text-greenAccent font-bold mb-3">ارتباط با تجارت الکترونیک</h4>
-                <p className="text-sm text-textGray leading-relaxed">بله — توتون‌یار یک پلتفرم تجارت الکترونیک B2B برای توزیع عمده محصولات دخانی است. فرآیند سفارش‌گیری، مشاهده کاتالوگ، مدیریت اعتبار و پیگیری سفارش به‌صورت آنلاین انجام می‌شود.</p>
+                <p className="text-sm text-textGray leading-relaxed"> توتون‌یار یک پلتفرم تجارت الکترونیک B2B برای توزیع عمده محصولات دخانی است. فرآیند سفارش‌گیری، مشاهده کاتالوگ، مدیریت اعتبار و پیگیری سفارش به‌صورت آنلاین انجام می‌شود.</p>
               </div>
             </div>
 
