@@ -206,7 +206,7 @@ export default function MarketingView() {
 
         {/* ── بازاریابی ارجاعی ── */}
         <div className="bg-bgCard p-8 rounded-2xl border-l-4 border-coral">
-          <h3 className="text-xl font-bold text-white mb-4">بازاریابی ارجاعی (Referral Marketing)</h3>
+          <h3 className="text-xl font-bold text-white mb-4">بازاریابی ارجاعی</h3>
           <p className="text-textGray leading-relaxed mb-4">
             تبدیل مشتریان راضی به سفیران برند از طریق سیستم پاداش‌دهی هوشمند. هر مشتری معرفی‌کننده از تخفیف ویژه بهره‌مند می‌شود.
           </p>
