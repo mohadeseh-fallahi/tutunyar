@@ -2,7 +2,7 @@ import { Package, List, UserCircle, ShieldCheck } from '@phosphor-icons/react'
 
 const tabs = [
   { id: 'home', label: 'صفحه اصلی' },
-  { id: 'business-model', label: 'پرونده کسب و کار' },
+  { id: 'business-model', label: 'پرونده دیجیتال کسب و کار' },
   { id: 'marketing', label: 'برنامه بازاریابی' },
   { id: 'roadmap', label: 'نقشه راه' },
 ]
