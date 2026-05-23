@@ -7,7 +7,7 @@ export default function BusinessModelView() {
         <div className="mb-12 border-b border-white/10 pb-6">
           <h2 className="text-3xl font-extrabold text-gold flex items-center gap-3">
             <PresentationChart weight="fill" size={32} />
-            پرونده کسب و کار
+            پرونده دیجیتال کسب و کار
           </h2>
           <p className="text-textGray mt-4 max-w-3xl leading-relaxed">این بخش ساختار اقتصادی و استراتژیک توتون‌یار را به عنوان یک پلتفرم B2B در بازار سنتی دخانیات تشریح می‌کند.</p>
         </div>
@@ -15,14 +15,14 @@ export default function BusinessModelView() {
         {/* BMC */}
         <div className="mb-16">
           <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
-            <SquaresFour weight="bold" className="text-gold" size={22} /> بوم مدل کسب‌وکار (Business Model Canvas)
+            <SquaresFour weight="bold" className="text-gold" size={22} /> بوم مدل کسب‌وکار 
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
             {/* Key Partners */}
             <div className="bg-bgCard p-5 rounded-xl col-span-1 border-t-4 border-gold shadow-lg">
               <h4 className="text-gold font-bold mb-4 flex items-center gap-2"><Handshake weight="fill" size={20} /> شرکای کلیدی</h4>
               <ul className="text-white text-sm space-y-3 list-disc list-inside opacity-90">
-                <li>تولیدکنندگان اصلی (JTI، BAT و...)</li>
+                <li>تولیدکنندگان اصلی</li>
                 <li>واردکنندگان رسمی تنباکو</li>
                 <li>شرکت‌های پخش سراسری</li>
                 <li>ارائه‌دهندگان درگاه پرداخت و API بانکی</li>
