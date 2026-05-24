@@ -1,9 +1,9 @@
 # لینک‌های پروژه توتون‌یار و منابع مرتبط
 
-### وب‌سایت (Website)
+### Website
 * [https://tutunyar.vercel.app](https://tutunyar.vercel.app)
 
-### گیت‌هاب (GitHub)
+### GitHub
 * [https://github.com/mohadeseh-fallahi](https://github.com/mohadeseh-fallahi)
 
 ### Vercel AI
